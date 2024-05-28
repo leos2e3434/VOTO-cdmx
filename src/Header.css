@@ -1,0 +1,33 @@
+/* src/Header.css */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 20px;
+  background-color:#000;
+  border-bottom: 1px solid #eaeaea;
+  z-index: 1000;
+}
+
+.logo {
+  height: 40px;
+}
+
+.connect-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.connect-button:hover {
+  background-color: #464445;
+}
+

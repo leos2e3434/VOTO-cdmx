@@ -1,0 +1,61 @@
+/* src/App.css */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: rgb(155,168,223);
+background: linear-gradient(180deg, rgba(155,168,223,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.App {
+  padding-top: 60px; /* Espacio para el header fijo */
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around; /* Para centrar los contenedores horizontalmente */
+  align-items: center; /* Para centrar los contenedores verticalmente */
+  height: calc(100vh - 60px); /* Altura total menos el header */
+}
+
+/* App.css */
+.voting-section {
+  background: transparent;
+  padding: 20px; /* Añade un espacio de relleno a la sección */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  height: 500px;
+  color: #fff;
+  font-weight: 700;
+
+}
+.voting-section h2 {
+  margin-bottom: 50px; /* Añade un margen inferior al título */
+}
+
+.voting-section div {
+  margin-bottom: 100px; /* Añade un margen inferior al contenedor de opciones */
+}
+
+.voting-section label {
+  margin-bottom: 60px; /* Añade un margen inferior a cada opción */
+}
+.voting-section button {
+  background-color: transparent; /* Cambia el color de fondo del botón */
+  color: white; /* Cambia el color del texto del botón a blanco */
+  border: 3px solid ;
+  border-radius: 10px; /* Elimina el borde del botón */
+  padding: 20px 20px; /* Ajusta el espacio de relleno del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Agrega una transición suave al cambio de color de fondo */
+}
+
+.voting-section button:hover {
+  background-color: rgba(0, 0, 0, 0.445); 
+  font-size: medium;/* Cambia el color de fondo del botón al pasar el cursor */
+}
+
+
